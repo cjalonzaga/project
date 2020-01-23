@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #333;
+	color: #fff;
+	line-height: 1.5;
+	height: 100vh; 
+	/*overflow: hidden;*/
+}
+.container{
+	width: 100%;
+	height: 100%;
+	/*overflow-y: scroll;*/
+	/*scroll-behavior: smooth;*/
+}
+.nav-menu{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,0.7);
+}
+.nav-menu ul{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+.nav-menu ul li{
+	margin: 0 1rem;
+	padding: 0rem;
+	line-height: 50px;
+}
+.nav-menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+}
+.nav-menu ul li a:hover{
+	color: skyblue;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+section h1{
+	font-size: 4rem;
+}
+section h3{
+	font-size: 2rem;
+}
+section p{
+	font-size: 1.5rem;
+}
+section#home{
+	background: url('bg3.jpeg')no-repeat center center/cover;
+}
+section#home a{
+	padding: 0.5em 1em;
+	background-color: #ccc;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #222;
+	border:thin inset #222;
+	margin: 1em;
+}
+section#home a:hover{
+	background-color: #222;
+	color: #fff;
+}
+.home-wrap{
+	background: rgba(0,3,0,0.5);
+	height: auto;
+	border-radius: 1.5rem;
+	align-content: center;
+	padding: 1em;
+}
+#home h1{
+	font-weight: normal;
+	color: #fff4ef;
+}
+.menu-main{
+	display: flex;
+	height: 100vh;
+}
+.left-title{
+	flex-basis: 30%;
+	border-bottom: 1px solid #fff;
+}
+.left-title h1{
+	margin-top: 25%;
+	font-size: 50px;
+	font-weight: normal;
+}
+.menu-list{
+	flex-basis: 70%;
+	background-color: #fff;
+}
+.menu-list p{
+	margin-top: 25%;
+	color: #222;
+}
+/*section#cattering{
+	background: url('cattering.jpg') no-repeat center center/cover;
+}
+section#about{
+	background: url('about.jpg') no-repeat center center/cover;
+}
+section#location{
+	background: url('location.jpg') no-repeat center center/cover;
+}*/
